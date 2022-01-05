@@ -1,6 +1,6 @@
 # Github Study Project (Use Git Bash)
 깃허브를 익히고 실습을 통해 공부해보기<br>
-# 깃허브 용어 정리
+# 용어 정리
  * Git : 버전 관리 시스템
  * GitHub : Git으로 관리하는 프로젝트를 올려둘 수 있는 사이트
  * Git Bash : CLI 방식으로 Git을 사용할 수 있는 환경
