@@ -27,7 +27,7 @@ git config --global user.email "your Email"
 # 2. git clone
 내 컴퓨터 로컬저장소에 파일을 내려받기 위해 다음 명령어를 통해 파일을 받아준다.
 ```swift
-git clone https://github.com/AISL-Study/Git_Study.git
+https://github.com/AISL-Study/Git_Study_1.git
 
 ```
 <br>
@@ -81,7 +81,7 @@ git commit -m "메시지 내용"
 
 3. git push
 ```swift
-git push origin 브런치 이름
+git push origin 브랜치 이름
 ```
    > 원격 저장소에 내 브랜치로 수정한 내용을 push
 
