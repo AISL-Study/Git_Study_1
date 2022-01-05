@@ -1,6 +1,16 @@
-# Github Study Project
+# Github Study Project (Use Git Bash)
 깃허브를 익히고 실습을 통해 공부해보기<br>
-
+# 깃허브 용어 정리
+ * Git : 버전 관리 시스템
+ * GitHub : Git으로 관리하는 프로젝트를 올려둘 수 있는 사이트
+ * Git Bash : CLI 방식으로 Git을 사용할 수 있는 환경
+ * 커밋 : 버전 관리를 통해 생성된 파일, 혹은 그 행위
+ * log : 지금까지 만든 커밋의 기록
+ * checkout : 원하는 지점으로 이동
+ * 로컬저장소 : Git으로 버전 관리하는 내 컴퓨터 안 폴더
+ * 원격저장소(레포지토리) : GitHub에서 협업하는 공간(폴더)
+ * push : 로컬저장소의 커밋을 원격저장소에 올리는 행위
+ * pull : 원격저장소의 커밋을 로컬저장소에 내려받는 행위
 # ※ 사전 작업
   * git 다운로드
   * 마우스 우클릭 후 원하는 폴더에 git bash here 클릭<br>
@@ -43,7 +53,7 @@ git remote -v
 자신의 로컬 환경에서 코드를 추가하는 작업을 하기 위해 브랜치를 만들어준다.
 
 ```swift
-git checkout -b “브랜치 이름”
+git checkout -b 브랜치 이름
 ```
 ※ 브랜치 이름은 본인 영문 이름으로 할 것. (누가 코드를 추가했는지를 확인하기 위해서)
 
@@ -52,7 +62,11 @@ index.html 파일을 수정해준다.<br>
 본인의 이름과 학번을 적어서 수정 후 저장할 것.<br>
 <img src="https://user-images.githubusercontent.com/88313282/148162543-b294b94d-6f11-42c9-a07a-1d0905254354.png"  width="400" height="200">
 
+※ html 파일을 수정하는 방법은 구글링을 통해 직접 해보시면 됩니다.
+
 # 6. 깃허브 작업하기
+파일을 수정했다면, github의 원격저장소에 작업하는 과정이 필요합니다.<br>
+다음 세개의 명령어를 통해 깃허브 작업을 할 수 있습니다.
 1. git add
 ```swift
 git add .
@@ -70,5 +84,15 @@ git commit -m ＂메시지 내용“
 git push origin (브런치 이름)
 ```
    > 원격 저장소에 내 브런치로 수정한 내용을 push
+
+# 7. 브랜치 삭제
+```swift
+git pull origin master
+```
+> 원본 저장소에 merge가 완료되면 원본 저장소와 로컬 저장소의 코드를 동기화
+```swift
+git branch -d 브랜치 이름
+```
+> 작업하던 로컬의 브랜치를 삭제
 
 
