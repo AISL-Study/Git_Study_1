@@ -83,7 +83,7 @@ git commit -m "메시지 내용"
 ```swift
 git push origin 브런치 이름
 ```
-   > 원격 저장소에 내 브런치로 수정한 내용을 push
+   > 원격 저장소에 내 브랜치로 수정한 내용을 push
 
 # 7. 브랜치 삭제
 ```swift
