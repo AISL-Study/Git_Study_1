@@ -75,7 +75,7 @@ git add .
 
 2. git commit
 ```swift
-git commit -m ＂메시지 내용“
+git commit -m "메시지 내용"
 ```
    > 커밋은 수정한 내용을 알림 
 
