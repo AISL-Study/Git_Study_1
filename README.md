@@ -48,8 +48,8 @@ git checkout -b “브랜치 이름”
 ※ 브랜치 이름은 본인 영문 이름으로 할 것. (누가 코드를 추가했는지를 확인하기 위해서)
 
 # 5. 코드 수정하기
-index.html 파일을 수정해준다.
-본인의 이름과 학번을 적어서 수정 후 저장할 것.
+index.html 파일을 수정해준다.<br>
+본인의 이름과 학번을 적어서 수정 후 저장할 것.<br>
 <img src="https://user-images.githubusercontent.com/88313282/148162543-b294b94d-6f11-42c9-a07a-1d0905254354.png"  width="400" height="200">
 
 # 6. 깃허브 작업하기
